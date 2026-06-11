@@ -20,7 +20,7 @@ gem 'fog-aws', '~> 3.14'
 gem 'will_paginate', '~> 3.3'
 gem 'bootstrap-will_paginate', '~> 1.0'
 # Frontend
-gem 'bootstrap-sass', '~> 3.4'
+gem 'bootstrap-sass', '~> 3.4.1'
 # Use Puma as the app server
 gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
@@ -31,6 +31,7 @@ gem 'uglifier', '>= 4.2'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'sassc-rails', '~> 2.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.6'
